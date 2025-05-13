@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
+     <title>Tarjeta presentación</title>
+  </head>
+  <style>
+    
+  *{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    transition: all 0.5s linear;
+}
+
+main{
+    display: grid;
+    place-content:center;
+    min-height: 100vh;
+    background-color: #ededed;
+}
+.business-card .front{
+  position: relative;
+}
+.business-card{
+  width: 640px;
+  height: 360px;
+  position: relative;
+}
+.business-card .front,
+.business-card.back{
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+ .business-card .back{
+  text-align: center;
+  color:rgb(209, 201, 191);
+  float:right;
+ }
+
+.business-card .front{
+      background-image:url(imagenes/iniciales1.jpg);
+      border:5px solid rgb(38, 38, 39);
+      background-size:cover;
+      float:right;
+      justify-content: left;
+      width: 150%;
+      height: 150%;
+}  
+
+    
+
+</style>
+
+  <body> 
+    <main>
+    <div class="business-card">
+      <div class="front">
+        <div class="empresa"></div>
+        <img src="imagenes/foto1.jpeg"width="300px" height="300px">   
+      <div class="back">
+      <h1>Johanna González J</h1>
+      <h3>Diseñadora y programadora</h3>
+      <h4>Técnico</h4>
+    <div class="info">
+      <div class="contacto">
+        <i class="fas fa-phone-volume"></i>
+        +506 89134774
+      <div class="info">
+        <div class="contacto">
+          <i class="fas fa-envelope-square"></i>
+          gonzalezjohanna221gmail.com
+          <div class="contacto">
+          </div>
+          <br>
+          <div>
+            <h4>Conocimiento en:
+              <br>
+              . HTML y CSS 
+              <br>
+              . Bootstrap 
+              <br>
+              . Javascript
+              <br>
+              . Framework(JQuery)
+              <br>
+              . Bases de Datos (MySQL)
+              <br>
+              . PHP
+              <br>
+              . Ajax
+              <br>
+              . Wordpress
+
+            </h4>
+          </div>
+        </div>
+    </div>
+      </div>
+    </div>
+      </div>
+      </div>
+    </div>
+    </main>
+  </body>
+</html>
